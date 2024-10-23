@@ -1,0 +1,237 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+    justify-content: center;
+    /* font-family: "Times New Roman"; */
+    font-family: 'Roboto', 'Arial', sans-serif
+}
+
+.cantent-section{
+    width: 70%;
+    height: auto;
+    /* display: flex;
+    
+    flex-direction: column;
+    gap: 5px; */
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+padding-left: 50px;
+}
+
+.cantent-section h1{
+/* font-size: 50px; */
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(to right, black, #ff00ff, #0088ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0;
+
+}
+
+.cantent-section p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+
+.ui-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    gap: 15px;
+    padding-block: 20px;
+}
+
+.card{
+    width:190px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid  rgba(0, 0, 0, 0.137);
+}
+
+.card p{
+    font-size: 16px;
+    color: black;
+}
+
+.card i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+
+
+.refresh-section{
+    width: 100%;
+    height: auto;
+    padding-block: 3px;
+    display: flex;
+    /* flex-direction: column; */
+    color: rgba(0, 0, 0, 0.473);
+    gap: 5px;
+padding-bottom: 30PX;
+}
+
+
+.Ask-section{
+    /* padding-top: 20px; */
+    width: 89%;
+    height: 150px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color:  white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.top-sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-inline: 10px; */
+    /* padding-block: 10px; */
+}
+.top-sec p{
+    font-size: 16px;
+    font-weight: 600;
+    
+    color: black;
+}
+
+.box{
+    width: 120px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 20px;
+    background-color:  #EEEEEE;
+    /* padding-block: 30px; */
+    /* padding-top: 10px; */
+}
+
+.box p{
+    font-size: 14px;
+}
+
+
+
+.bottom-sec{
+    width: 100%;
+    height: auto;
+    /* padding-block: 10px; */
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* padding-inline: 10px; */
+}
+
+.bottom-sec p{
+    font-size: 16px;
+    /* width: 50%; */
+    display: flex;
+    gap: 10px;
+}
+
+#hid{
+font-size: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#hid i{
+    font-size: 25px;
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+        padding: 3%;
+    }
+
+    .cantent-section{
+        width: 100%;
+        height: auto;
+        padding: 1em;
+        gap: 1em;
+        padding-left: 0%;
+      display: flex;
+      flex-direction: column;
+        padding: 2%;
+    }
+    
+.cantent-section h1{
+    font-size: 2.5em;
+}
+
+
+.ui-card{
+    width: 100%;
+    height: auto;
+padding: 0%;
+}
+
+
+.card br{
+    display: none;
+}
+.card{
+    width: 10em;
+    height: 7em;
+   
+}
+
+.card p{
+    font-size: 0.8em;
+}
+
+.card i{
+    font-size: 1em;
+}
+
+.refresh-section{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+}
+
+.Ask-section{
+    width: 100%;
+    height: 8em;
+}
+
+
+
+}
